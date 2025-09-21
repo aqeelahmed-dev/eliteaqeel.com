@@ -1,1 +1,49 @@
+body {
+	background: #1C1C1C;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial, sans-serif;
+}
 
+.container {
+	text-align: center;
+	padding: 24px 8px;
+    box-sizing: border-box;
+}
+
+.logo {
+	height: 120px;
+	margin-bottom: -30px;
+}
+
+.welcome {
+	color: #fff;
+	font-size: 1rem;
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+p {
+	color: white;
+	font-size: 1rem;
+	max-width: 90vw;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.logo {
+		height: 120px;
+	}
+	.container {
+		padding: 12px 2vw;
+	}
+	p, .welcome {
+		font-size: 0.95rem;
+	}
+}
